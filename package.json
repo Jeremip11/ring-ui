@@ -51,7 +51,9 @@
     "test-ci": "xvfb-maybe karma start karma-ci.conf.js",
     "test-watch": "karma start karma-watch.conf.js",
     "prerelease-ci": "git pull",
-    "release-ci": "lerna publish --yes"
+    "release-ci": "lerna publish --yes",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -209,9 +211,11 @@
     "svg-sprite-loader": "3.9.0",
     "url-loader": "1.0.1",
     "url-search-params": "^0.10.2",
-    "util-deprecate": "^1.0.2"
+    "util-deprecate": "^1.0.2",
+    "snyk": "^1.316.1"
   },
   "engines": {
     "node": ">=7.4"
-  }
+  },
+  "snyk": true
 }
