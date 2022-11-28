@@ -174,7 +174,7 @@
     "babel-plugin-transform-runtime": "6.23.0",
     "classnames": "2.2.5",
     "combokeys": "3.0.0",
-    "compile-code-loader": "0.2.0",
+    "compile-code-loader": "1.0.0",
     "conic-gradient": "^1.0.0",
     "css-loader": "1.0.0",
     "deep-equal": "1.0.1",
